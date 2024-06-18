@@ -1,0 +1,13 @@
+#color-change-div {
+    text-align: center;
+}
+
+#buttons-div {
+    display: inline-block;
+}
+
+.cont-btn {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
