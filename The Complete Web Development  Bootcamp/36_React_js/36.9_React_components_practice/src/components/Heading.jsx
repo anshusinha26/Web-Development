@@ -1,0 +1,37 @@
+import React from "react";
+
+function Heading() {
+    const time = new Date();
+    const hours = time.getHours();
+    const seconds = time.getSeconds();
+
+    let message = "";
+    let color = "black";
+
+    if (hours >= 0 && seconds > 0 && hours < 12) {
+        message = "Good morning";
+        color = {
+            color: "#219ebc",
+        };
+    } else if (hours >= 12 && seconds > 0 && hours < 18) {
+        message = "Good afternoon";
+        color = {
+            color: "#ffb703",
+        };
+    } else if (hours >= 18 && seconds > 0 && hours <= 23 && seconds <= 59) {
+        message = "Good evening";
+        color = {
+            color: "#023047",
+        };
+    } else {
+        message = "!";
+    }
+
+    return (
+        <h1 className="heading" style={color}>
+            {message}
+        </h1>
+    );
+}
+
+export default Heading;

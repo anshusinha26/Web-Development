@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: #343a40;
+}
+
+#level-title {
+    font-family: "Honk", system-ui;
+    letter-spacing: 1px;
+    font-size: 4rem;
+    margin: 5%;
+    color: #fef2bf;
+}
+
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid #03071e;
+    border-radius: 20%;
+}
+
+.game-over {
+    background-color: #d90429;
+    opacity: 0.8;
+}
+
+.red {
+    background-color: #e63946;
+}
+
+.green {
+    background-color: #2a9d8f;
+}
+
+.blue {
+    background-color: #219ebc;
+}
+
+.yellow {
+    background-color: #ffb703;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+footer {
+    font-family: "Nabla", system-ui;
+    text-align: center;
+    margin-top: 15%;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 20px;
+}

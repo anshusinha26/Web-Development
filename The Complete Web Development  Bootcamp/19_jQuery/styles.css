@@ -1,0 +1,18 @@
+.big-title {
+    color: cyan;
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+.margin1 {
+    margin: 100px;
+}
+
+.margin2 {
+    margin: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 70%;
+}

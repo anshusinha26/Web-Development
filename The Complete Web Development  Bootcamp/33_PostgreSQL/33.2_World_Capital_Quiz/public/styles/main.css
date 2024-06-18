@@ -1,0 +1,154 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Caveat Brush", cursive;
+    font-size: 20px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 40%;
+    height: 300px;
+    margin: 15% auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.container:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-1em);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+.answer-container {
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#score {
+    color: #ff006e;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.footer-container:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.3em);
+}
+
+button {
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: large;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Caveat Brush", cursive;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #ff5400;
+    box-shadow: 0 0.5em 0.5em -0.4em #d00000;
+    transform: translateY(-0.5em);
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#result {
+    text-align: center;
+    font-size: 24px;
+}
+
+.checkmark {
+    color: transparent;
+    animation: checkmark 0.5s ease;
+}
+
+.cross {
+    color: transparent;
+    animation: cross 0.5s ease;
+}
+
+@keyframes checkmark {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: #ccff33;
+    }
+}
+
+@keyframes cross {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: red;
+    }
+}
+
+.restart-button {
+    display: inline-block;
+    background-color: #03071e;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.restart-button:hover {
+    background-color: #ccff33;
+    box-shadow: 0 0.5em 0.5em -0.4em #004b23;
+    transform: translateY(-0.3em);
+    color: black;
+}

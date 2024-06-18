@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mondrian Project</title>
+        <style>
+            .parent {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 90vh;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                display: grid;
+                width: 748px;
+                height: 748px;
+                grid-template-columns: 320px 198px 153px 50px;
+                grid-template-rows: 414px 130px 155px 22px;
+                background-color: #000;
+                gap: 9px;
+                transition: box-shadow 0.3s, transform 0.3s;
+            }
+
+            .container:hover {
+                box-shadow: 0 0.5em 0.5em -0.4em #adb5bd;
+                transform: translateY(-1em);
+                cursor: pointer;
+            }
+
+            .first {
+                background-color: #e72f24;
+                grid-area: 1 / 1 / 2 / 2;
+            }
+            .second {
+                background-color: #f0f1ec;
+                grid-area: 1 / 2 / 2 / 5;
+            }
+            .third {
+                background-color: #f0f1ec;
+                grid-area: 2 / 1 / 4 / 2;
+            }
+            .fourth {
+                background-color: #f0f1ec;
+                grid-area: 2 / 2 / 4 / 4;
+            }
+            .fifth {
+                background-color: #004592;
+                grid-area: 2 / 4 / 3 / 5;
+                border-bottom: 10px solid black;
+            }
+            .sixth {
+                background-color: #f0f1ec;
+                grid-area: 4 / 1 / 5 / 2;
+            }
+            .seventh {
+                background-color: #f9d01e;
+                grid-area: 4 / 2 / 5 / 3;
+            }
+            .eighth {
+                background-color: #232629;
+                grid-area: 4 / 3 / 5 / 4;
+            }
+            .ninth {
+                background-color: #f0f1ec;
+                grid-area: 4 / 4 / 5 / 5;
+                grid-row: span 2;
+            }
+            .footer {
+                font-family: "Gill Sans", "Gill Sans MT", Calibri,
+                    "Trebuchet MS", sans-serif;
+                text-align: center;
+            }
+        </style>
+        <link rel="icon " href="goal.png" />
+    </head>
+
+    <body>
+        <div class="parent">
+            <div class="container">
+                <div class="item first"></div>
+                <div class="item second"></div>
+                <div class="item third"></div>
+                <div class="item fourth"></div>
+                <div class="item fifth"></div>
+                <div class="item sixth"></div>
+                <div class="item seventh"></div>
+                <div class="item eighth"></div>
+                <div class="item ninth"></div>
+            </div>
+        </div>
+        <footer class="footer">Made on 🌏 by Anshu Sinha</footer>
+    </body>
+</html>

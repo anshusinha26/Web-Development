@@ -1,0 +1,22 @@
+body {
+  background-color: #D67D3E;
+}
+h1 {
+  color: red; font-size: 50px;
+}
+p {
+  color: #0B4619; font-size: 20px;
+}
+.bacon {
+  background-color: #FFCE45;
+}
+.broccoli {
+  background-color: #A3DA8D;
+}
+#heading:hover {
+  color: blue;
+}
+img:hover {
+  background-color: #FDFCE5;
+  border-radius: 100%;
+}

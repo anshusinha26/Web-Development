@@ -1,0 +1,144 @@
+body {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.mid-container {
+    display: grid;
+    height: 500px;
+    width: 550px;
+    grid-template-rows: 200px 300px;
+    transition: box-shadow 0.3s, transform 0.3s;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+}
+
+.mid-container:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #6c757d;
+    transform: translateY(-1.5em);
+}
+
+.form-container-inner {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.form-container-inner1,
+.form-container-inner2,
+.form-container-inner3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+button {
+    border: none;
+    background-color: #00b4d8;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #52b788;
+    transform: translateY(-0.2em);
+    background-color: #7bf1a8;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    padding: 10px 20px;
+    width: 200px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.footer-container:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #6c757d;
+    transform: translateY(-0.3em);
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* ----- */
+
+.head-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
+.form-container-inner-2 {
+    display: grid;
+    grid-template-rows: 200px 100px;
+}
+
+.form-container-inner1-2,
+.form-container-inner2-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container-inner1-2 {
+    flex-direction: column;
+}
+
+.form-container-inner1-2 > p {
+    font-size: 20px;
+}
+
+.form-container-inner1-2 > h3 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.button-2 {
+    border: none;
+    background-color: #00b4d8;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.button-2:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #ff4d6d;
+    transform: translateY(-0.2em);
+    background-color: #ef233c;
+}
