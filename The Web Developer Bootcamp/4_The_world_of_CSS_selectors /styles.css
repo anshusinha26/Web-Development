@@ -1,0 +1,105 @@
+/* * {
+    background-color: #caf0f8;
+} */
+
+body {
+    background-color: #e3f2fd;
+}
+
+h1,
+h2 {
+    color: #161b33;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login_button {
+    color: white;
+    background-color: #57cc99;
+    border-radius: 5px;
+}
+
+.signup_button {
+    color: white;
+    background-color: #f15bb5;
+    border-radius: 5px;
+}
+
+.vote_button {
+    color: #370617;
+    background-color: #c7f9cc;
+    border-radius: 5px;
+}
+
+.post_link {
+    color: white;
+    padding: 5px;
+}
+
+.post_span {
+    background-color: #05668d;
+    border-radius: 5px;
+}
+
+/* .nav_link {
+    color: white;
+    padding: 7px;
+} */
+
+.nav_span {
+    background-color: #3aafb9;
+    border-radius: 5px;
+}
+
+#head_div {
+    text-align: center;
+    background-color: #fefee3;
+    width: 20%;
+    border-radius: 10px;
+}
+
+#sign_div input {
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    color: #3d405b;
+    font-weight: bold;
+}
+
+a[class="nav_link"] {
+    color: white;
+    padding: 7px;
+}
+
+/* a[href*="contact"] {
+    color: white;
+} */
+
+span[class="post_span"]:hover {
+    background-color: #ffff3f;
+}
+
+a[class="post_link"]:hover {
+    color: #007f5f;
+    text-decoration: underline;
+}
+
+span[class="nav_span"]:hover {
+    background-color: #c7f9cc;
+}
+
+a[class="nav_link"]:hover {
+    color: #132a13;
+    text-decoration: underline;
+}
+
+.vote_button:active {
+    background-color: #3bf4fb;
+}
+
+h1:first-letter {
+    font-size: 50px;
+}

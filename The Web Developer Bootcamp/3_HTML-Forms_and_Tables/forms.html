@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Forms Demo</title>
+    </head>
+    <body>
+        <main>
+            <div>
+                <h1>Forms</h1>
+            </div>
+
+            <div>
+                <form action="/search">
+                    <div>
+                        <label for="name">Enter your name:</label> <input
+                        type="text" placeholder="Name" / id="name" name="name" required minlength="2">
+                    </div>
+                    <br />
+                    <div>
+                        <label for="password">Enter your password: </label>
+                        <input type="password" placeholder="Password" /
+                        id="password" name="password" required>
+                    </div>
+                    <br />
+                    <div>
+                        <label for="number">Enter your favorite number: </label>
+                        <input type="number" placeholder="0" / id="number"
+                        name="number" required min="1">
+                    </div>
+                    <br />
+                    <div>
+                        <label for="color">Choose your favorite color: </label>
+                        <input type="color" / id="color" name="color">
+                    </div>
+                    <br />
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <hr />
+
+        <section>
+            <div>
+                <h2>Google Search</h2>
+            </div>
+            <div>
+                <form action="https://www.google.com/search">
+                    <div>
+                        <label for="search">Search for:</label>
+                        <input type="text" / id="search" name="q"
+                        placeholder="Google Search">
+                        <button type="submit">Search</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Youtube Search</h2>
+            </div>
+            <div>
+                <form action="https://www.youtube.com/search">
+                    <div>
+                        <label for="search">Search for:</label>
+                        <input type="text" / id="search" name="q"
+                        placeholder="Youtube Search">
+                        <button type="submit">Search</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <hr />
+
+        <section>
+            <div>
+                <div><h2>More inputs!</h2></div>
+                <div>
+                    <form action="/search">
+                        <input type="checkbox" id="agree" /
+                        name="agree_to_terms" checked>
+                        <label for="agree"
+                            >I agree to the terms and conditions</label
+                        >
+                        <div>
+                            <h2>Select Yes or No:</h2>
+                        </div>
+
+                        <div>
+                            <input type="radio" / name="option" checked id="yes"
+                            value="yes">
+                            <label for="yes">Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" / name="option" id="no"
+                            value="no">
+                            <label for="no">No</label>
+                        </div>
+                        <div>
+                            <h2>Select your favorite youtube channels:</h2>
+                        </div>
+                        <div>
+                            <select name="channels" id="channels">
+                                <option value="none">None</option>
+                                <option value="pwnisher" selected>
+                                    Pwnisher
+                                </option>
+                                <option value="mrbeast">Mr Beast</option>
+                                <option value="bbkivines">BB Ki Vines</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="rating"
+                                >Select rating for the channel selected:
+                                <input
+                                    type="range"
+                                    id="rating"
+                                    name="rating"
+                                    min="0"
+                                    max="5"
+                                    step="1"
+                                    value="1"
+                            /></label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="feedback">Tell your feedback!</label>
+                            <br />
+                            <textarea
+                                name="feedback"
+                                id="feedback"
+                                cols="30"
+                                rows="10"
+                                placeholder="Write your feedback here..."
+                            ></textarea>
+                        </div>
+                        <br />
+                        <div><button type="Submit">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
