@@ -130,21 +130,19 @@ a {
 }
 
 .cloud-top {
-    position: relative;
-    right: 10vw;
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     justify-content: flex-end;
+    padding-right: 10vw;
 }
 
 .cloud-bottom {
-    position: relative;
-    left: 10vw;
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     justify-content: flex-start;
+    padding-left: 10vw;
 }
 
 .cloud-top img,
